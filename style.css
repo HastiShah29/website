@@ -135,7 +135,7 @@ img {
 .section-title{
     text-align: center;
     text-transform: uppercase;
-    font-size: var(--font-size-xl);
+    font-size: large;
     padding: 20px;
     width: 100vw;
    
@@ -147,7 +147,7 @@ img {
         height: 5px;
         display: block;
         margin: 10px auto 0;
-        border-radius: var(--radius-sm);
+        border-radius: 30px !important;
         background-color: var(--secondary);
       
 }
@@ -162,10 +162,10 @@ header {
 }
 
 header .navbar {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
 }
 
 .navbar .nav-logo .logo-text {
